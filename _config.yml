@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Welcome to MilletQ's Blog
-subtitle: ''
-description: ''
-keywords:
+title: MilletQ
+subtitle: 'subtitle'
+description: 'description'
+keywords: 'keywords'
 author: MilletQ
-language: zh
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
