@@ -13,35 +13,35 @@ Revit AddIn-Manager是由Autodesk官方提供的一个插件加载及调用工�
 
 第二步：下载完成后双击“REVIT\_2018\_SDK\_1.msi”点击“Next” 
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/7656c1b3aae90b8a8b186d6821e0f49f.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/7656c1b3aae90b8a8b186d6821e0f49f.png)
 
 第三步：勾选“I accept the terms in the License Agreement”，点击“Next”。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/ea64d83b90e51ca74c4a012918530121.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/ea64d83b90e51ca74c4a012918530121.png)
 
 第四步：点击“Change...”可选择安装路径，这里按默认。选择好路径后点”Next“进行下一步
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/b6ec82015fd82ce7bcc1c27ddb68f341.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/b6ec82015fd82ce7bcc1c27ddb68f341.png)
 
 第五步：点击”Install“进行安装
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/45003abfc9fa1e5916f07c49cca20d81.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/45003abfc9fa1e5916f07c49cca20d81.png)
 
 第六步：等待安装完成后点击”Finish“完成安装。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/bc731f7144cfda710e1a688cbf5cd049.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/bc731f7144cfda710e1a688cbf5cd049.png)
 
 第七步：打开看安装文件夹下的”Revit 2018 SDK”，看到如下界面
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/435a2c63e098e7defa4a607e7163627b.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/435a2c63e098e7defa4a607e7163627b.png)
 
 第八步：打开“Add-In Manager”文件夹，复制“AddInManager.dll”及“Autodesk.AddInManager.addin”到"C：\ProgramData\Autodesk\Revit\Addins\2018"目录下
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/bcb8aa8befc985bf82dfd5b431ec48d9.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/bcb8aa8befc985bf82dfd5b431ec48d9.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/09255748f4983edd749884cb30393bf2.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/09255748f4983edd749884cb30393bf2.png)
 
-第九步：打开“Revit 2018”，在“附加模块”选项栏，“外部工具”中即可看到“AddInManager”插件。![image](https://i-blog.csdnimg.cn/blog_migrate/c671805ee474326f26cbbfc791c408c1.png)
+第九步：打开“Revit 2018”，在“附加模块”选项栏，“外部工具”中即可看到“AddInManager”插件。![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/c671805ee474326f26cbbfc791c408c1.png)
 
 ## 1.2 安装Revit Lookup
 
@@ -51,51 +51,51 @@ Revit Lookup是由Autodesk Developer Network （ADN）技术专家Jeremy Tammik�
 
 第一步：点击“Revit Lookup”项目的GitHub地址：[https：//github.com/jeremytammik/RevitLookup](https://github.com/jeremytammik/RevitLookup) 
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/7e0d62c1171cd8b61b0cb2e92e034ad3.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/7e0d62c1171cd8b61b0cb2e92e034ad3.png)
 
 第二步：下滑找到“Versions”，点击“[2018.0.0.8](https://github.com/jeremytammik/RevitLookup/releases/tag/2018.0.0.8) for Revit 2018”版本，进入下载页面
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/b71e1e503b1c859580a5ac7e882244cc.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/b71e1e503b1c859580a5ac7e882244cc.png)
 
 第三步：点击“Source code(zip)”下载源代码压缩包
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/fe4cf3ea3a402801e75e8ec0c88c314c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/fe4cf3ea3a402801e75e8ec0c88c314c.png)
 
 第四步：解压后得到，如下文件。接着进入“CS”文件夹，找到“RevitLookup.addin”复制到"C：\ProgramData\Autodesk\Revit\Addins\2018"目录下。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/0e9c06c58682d4f48c8b28d840c0f83a.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/0e9c06c58682d4f48c8b28d840c0f83a.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/0c0b39f2812600689365345af6404386.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/0c0b39f2812600689365345af6404386.png)
 
 第五步：依次打开“bin“文件夹，打开"Debug"文件夹，找到“RevitLookup.dll”文件，复制到"C：\ProgramData\Autodesk\Revit\Addins\2018"目录下。至此“Revit Lookup”插件安装完成。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/417fe67aa1501bec96c7e72c7100dfac.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/417fe67aa1501bec96c7e72c7100dfac.png)
 
 第六步：打开“Revit 2018”，在“附加模块”选项栏，在最右侧即可看到“Revit Lookup”插件。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/6df60ad33a6179a6297e6f07193def2c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/6df60ad33a6179a6297e6f07193def2c.png)
 
 ## 1.3 使用Revit AddIn-Manager
 
 AddInMananger有三个模式：1）菜单模式；2）无界面模式；3）只读模式；
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/b02c3e9f0a1f2aae36d5ea2e1e434499.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/b02c3e9f0a1f2aae36d5ea2e1e434499.png)
 
 我们主要使用的是第一种模式，第二种类似于重复上一次命令，第三种使用情况较少
 
 打开窗口以后点击“Load”按钮来加载程序文件
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e5d3e677bc65aac3a74e40d373fb64e9.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e5d3e677bc65aac3a74e40d373fb64e9.png)
 
 支持.dll和.exe格式的程序文件，我们加载NaiveMepMini.dll的文件
 
 注意：新建一个单独的文件夹来放置程序文件，否则很可能报错
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e569e2227ad75d5ab83ce2006502570b.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e569e2227ad75d5ab83ce2006502570b.png)
 
 载入程序以后，选中对应的命令，点击“Run”按钮就可以运行了
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/b16446142a6b0c2a44e573f77f92810d.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/b16446142a6b0c2a44e573f77f92810d.png)
 
 当我们不需要使用插件时，点击“Remove”就可以卸载相关的程序集了
 
@@ -107,47 +107,47 @@ RevitLookup是Autodesk平台开发的一款不用写代码就可以直观地看�
 
 首先我们鼠标选中“墙体”，点击“Revit LookUp”工具，选择“”Snoop Current Selection...“
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/efe89ec453e08ce28f2a8db9bbe55b50.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/efe89ec453e08ce28f2a8db9bbe55b50.png)
 
 之后我们就可以得到当前“墙体”的API属性表。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/1e41dc2e8ff51b26c6e7ebd4fb325dde.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/1e41dc2e8ff51b26c6e7ebd4fb325dde.png)
 
 表中的“属性“和”方法“是和API中的属性和方法是一一对应的。总的来说，Revit LookUp”工具就是用来查看”Revit“中”构件“的API属性值的插件。下面做简要解读。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/834771809c504bf3a3f423addf3578ab.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/834771809c504bf3a3f423addf3578ab.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/51a2fc28fdf91ef774674e527e4c2e62.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/51a2fc28fdf91ef774674e527e4c2e62.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/af6ad7a8352df44c5bf84c7a3297f100.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/af6ad7a8352df44c5bf84c7a3297f100.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e9fc43d0c559c91ee8bd56fc093e6496.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e9fc43d0c559c91ee8bd56fc093e6496.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/c6fe46f27cf6099ec84ca00715f93957.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/c6fe46f27cf6099ec84ca00715f93957.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/64633d856a492afed3a43a53502af185.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/64633d856a492afed3a43a53502af185.png)
 
 ## 1.5 Revit API文档的查询与使用
 
 在安装了Revit SDK之后，文件夹中有个“RevitAPI.chm”文件就是Revit API文档。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e574c0b49db8adb36896239c2e62d935.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e574c0b49db8adb36896239c2e62d935.png)
 
 双击打开该文档后得到如下界面：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/03f9bb9e146ea703dc4ee60fbe5d071e.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/03f9bb9e146ea703dc4ee60fbe5d071e.png)
 
 下面简要介绍Revit API文档的使用方法：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/9c4b2a8031e8c7a2514768ab3408182c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/9c4b2a8031e8c7a2514768ab3408182c.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/34564cb904043c247bc880eb3efdf9d7.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/34564cb904043c247bc880eb3efdf9d7.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/46f02fd89c8effe75a589b0d0bf41940.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/46f02fd89c8effe75a589b0d0bf41940.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/fc850e7591fa15bccb2836d248b4c505.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/fc850e7591fa15bccb2836d248b4c505.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/d5a2e509417e0b2a1fb5147b6b7f8eb9.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d5a2e509417e0b2a1fb5147b6b7f8eb9.png)
 
 # 2 HelloWorld入门
 
@@ -165,7 +165,7 @@ Visual Studio编写C#程序的第一步是选择一种项目类型并创建新�
 
 （5）单击**确定**。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/232b898fa24c01752dd5cd3f4221289c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/232b898fa24c01752dd5cd3f4221289c.png)
 
 ## 2.2 添加引用
 
@@ -178,14 +178,14 @@ Visual Studio编写C#程序的第一步是选择一种项目类型并创建新�
 - 在添加引用对话框中，单击**浏览**选项卡。找到 Revit 安装的文件夹，然后单击RevitAPI.dll。例如，安装文件夹的位置通常是**C：\Program Files\Autodesk\Revit 2018\RevitAPI.dll**。Revit APIUI.dll的引用也在该文件夹中。
   
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/ad422773b322f2126c518974e559e449.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/ad422773b322f2126c518974e559e449.png)
 
 - **勾选**导入的.dll文件，单击**确定**以选择.dll并关闭对话框。RevitAPI会出现在解决方案资源管理器引用树中。
   
 - 请注意，对于新项目，RevitAPI的“复制本地”属性应始终设置为false。这会节省硬盘空间，并避免Visual Studio 调试器不知道使用哪个DLL副本。右键单击RevitAPI和RevitAPIUI，选择属性，并将**“复制本地”设置从true改为false。**
   
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/44364125e59ecdb50b9089ddd03bc40d.png) ![image](https://i-blog.csdnimg.cn/blog_migrate/9233a8a4bdbbe0e21caaec6bf0ec0cff.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/44364125e59ecdb50b9089ddd03bc40d.png) ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/9233a8a4bdbbe0e21caaec6bf0ec0cff.png)
 
 ## 2.3 编写代码
 
@@ -217,7 +217,7 @@ namespace HelloWord
 
 提示：（1）Visual Studio 智能感知功能可帮助创建实现接口的方法。在上例中Class1之后，添加“IExternalCommand”，使用**“alt”+“回车”**快捷键，呼出智能选项。再回车选择“实现接口”。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/5a128bc5ef5f4a14ed253aea05561a07.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/5a128bc5ef5f4a14ed253aea05561a07.png)
 
 （2）每个Revit插件应用程序都必须有一个进入点类来实现IExternalCommand接口，且必须实现Execute()方法。Execute()方法是插件程序的进入点，类似于其他程序中的Main()方法。插件程序进入点类的定义包含在一个程序集内。
 
@@ -227,17 +227,17 @@ namespace HelloWord
 
 （2）代码编写完成后，在菜单栏点击**生成**→**生成解决方案**，即可在输出窗口看到如下信息：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/d2ef53e82eaf8a6ea30a81bdd45eda3c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d2ef53e82eaf8a6ea30a81bdd45eda3c.png)
 
 其中，红框部分即为输出的dll文件位置。复制此文件位置，打开Revit软件，新建一个项目。在附加模块→外部工具点击“Add-In Manager”，选择“Load”，将复制的地址粘贴到地址栏，点击打开。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/36033713cfe191db793a2b965846bd67.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/36033713cfe191db793a2b965846bd67.png)
 
 选择我们载入的插件“HelloWorld.Class1”，点击Run，运行。即可得到如下结果：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/139b0e4168bde2edbde93470487118d8.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/139b0e4168bde2edbde93470487118d8.png)
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/cfd7083829aec4b5b8c00db2d4ebf3f5.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/cfd7083829aec4b5b8c00db2d4ebf3f5.png)
 
 ## 2.5 调试代码
 
@@ -247,25 +247,25 @@ namespace HelloWord
 （1）确保后台有个在运行的Revit项目
 （2）点击菜单栏**调试**→**附加到进程**，在右侧筛选进程里面输入"revit"关键字，点击“Revit.exe”，点击**附加**。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/cbabd9130daf49cfda405fc3e677e91c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/cbabd9130daf49cfda405fc3e677e91c.png)
 
-此时程序已经进入调试状态。![image](https://i-blog.csdnimg.cn/blog_migrate/0a3ab1078aba666a704fabfc6300837a.png)
+此时程序已经进入调试状态。![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/0a3ab1078aba666a704fabfc6300837a.png)
 
 （3）鼠标点击**红点位置**，将该行代码打上断点。打开”Revit“软件，按上面步骤运行插件。之后系统自动调整到断点代码处。如下所示：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e840ca0e413f5de6681d274cc6e1ecbf.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e840ca0e413f5de6681d274cc6e1ecbf.png)
 
 （4）此时按”**F11**“让程序**逐语句**进行代码运行，按”**F10**“**逐过程**进行代码运行，当断点代码在循环语句中，可以按”**Shift+F11**“**跳出**循环。
 
 这里我们按F11让程序逐语句进行代码运行。效果如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/2d5ea0f74e98b7bc86052f9070a77139.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/2d5ea0f74e98b7bc86052f9070a77139.png)
 
 此时代码已经台运行到” return Result.Succeeded；“这行代码中。再按”F11“则程序运行结束，自动退出调试状态。
 
 当我们要反复调试程序时候，只需点**调试**→**重新附加到进程**，Visual Studio 会自动将代码附加到我们上一次附加的进程上。此时我们只需要进行下一步调试即可。
 
-程序调试时，我们可以将我们需要时刻关注的**变量**下拉（或者复制，或者手动输入）到监视窗口，以观察该变量的变化。![image](https://i-blog.csdnimg.cn/blog_migrate/5ac3e48f0f6823529874a99e4a6b470e.png)
+程序调试时，我们可以将我们需要时刻关注的**变量**下拉（或者复制，或者手动输入）到监视窗口，以观察该变量的变化。![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/5ac3e48f0f6823529874a99e4a6b470e.png)
 # 3 图元基本交互
 ## 3.1 过滤
 
@@ -309,7 +309,7 @@ namespace HelloWord
 
 运行效果如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/83daaff430f5271b1082892811e8793c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/83daaff430f5271b1082892811e8793c.png)
 
 ### 3.1.1 创建图元过滤集
 
@@ -337,11 +337,11 @@ new FilteredElementCollector(Document document， ICollection<ElementId> element
 
 可以用  ElementFilter 对 FilteredElementCollector 使用过滤器。ElementFilter 是一个类，用于检查图元是否满足某种条件。ElementFilter 类有三个派生类，将图元过滤器划分为三类。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/1ffd3daf40cde357b752177d3fde6dbd.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/1ffd3daf40cde357b752177d3fde6dbd.png)
 
 - ElementQucikFilter。**快速过滤器**仅对 EIementRecord 进行操作，是一个低内存占用的类，以一个有限接口来读取图元属性。被快速过滤器丢弃的图元不会展开到内存中。
 
-   ![image](https://i-blog.csdnimg.cn/blog_migrate/275a5cacc7217690890fba3b4eaaaa4d.png)
+   ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/275a5cacc7217690890fba3b4eaaaa4d.png)
 
 | 快速过滤器 | 过滤结果 | 快捷方法 |
 | --- | --- | --- |
@@ -364,7 +364,7 @@ new FilteredElementCollector(Document document， ICollection<ElementId> element
 
 - ElementSlowFilter。**慢速过滤器**首先需要获取图元并展开到内存中。因此，更为可取的方法是，将慢速过滤器与至少一个快速过滤器结合使用，尽量减少展开到内存的图元数量，以对照此过滤器设置的标准进行评价。慢速过滤器均无快捷方法。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/8c6f02d52bc1a1391de3b1b67cf010ac.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/8c6f02d52bc1a1391de3b1b67cf010ac.png)
 
 | 慢速过滤器 | 过滤结果 |
 | --- | --- |
@@ -389,7 +389,7 @@ new FilteredElementCollector(Document document， ICollection<ElementId> element
 
 - ElementLogicalFilter。**逻辑过滤器**逻辑组合两个或更多过滤器。Revit 以使过滤器执行最快为优先评估条件，可能会将合成过滤器重新排序。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/e397e3e32c26eab96e1ed8b2b1425a5e.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e397e3e32c26eab96e1ed8b2b1425a5e.png)
 
 | 逻辑过滤器 | 过滤结果 | 快捷方法 |
 | --- | --- | --- |
@@ -435,7 +435,7 @@ namespace HelloWord
 
 运行结果如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/8aa86d74cd12d30fd9d2759c37b97acd.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/8aa86d74cd12d30fd9d2759c37b97acd.png)
 
 ## 3.2 参数
 
@@ -445,19 +445,19 @@ Revit提供了一个通用机制，给每个图元一组可以编辑的参数。
 
 本节以”墙体“为例子，了解参数的基本内容。首先我们选中一面墙体，点击”Revit LookUp“。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/fc8f4338483bacc76c69bb979b3be7ec.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/fc8f4338483bacc76c69bb979b3be7ec.png)
 
 即可查看该墙体的一个图元属性。在墙体图元中”Paremeters“属性包含了该墙体所有参数。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/fca195d9cd3c02259fd3326180b4e729.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/fca195d9cd3c02259fd3326180b4e729.png)
 
 点击”Parameters“可得到该墙体的所有属性。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/6d2ae46797e30df6789696557c301c62.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/6d2ae46797e30df6789696557c301c62.png)
 
 这里可以看到，参数是属于”Parameter“类，其中有具有值的属性和方法能够通过”Revit LookUp“查看，所有属性和方法则需要自行通过Revit API文档查找。”Parameter“类文档界面如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/31ed46fbd5ed2382bbac650ca3d18125.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/31ed46fbd5ed2382bbac650ca3d18125.png)
 
 ### 3.2.2 Revit单位
 
@@ -475,11 +475,11 @@ Revit提供了一个通用机制，给每个图元一组可以编辑的参数。
 
    如何理解此表格，以墙体的”无连接高度“参数为例。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/6989d5b32f6bfb3f78ec6003778beed7.png) ![image](https://i-blog.csdnimg.cn/blog_migrate/b1af40f239e153844040854ff1e1d59e.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/6989d5b32f6bfb3f78ec6003778beed7.png) ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/b1af40f239e153844040854ff1e1d59e.png)
 
 在上图，我们可以发现，在”无连接高度“参数的方法中，AsDouble() 是将”无连接高度“的参数值转化为Double值，AsValueString() 是将”无连接高度“的参数值转化为字符串值。但为何double值为26.2467而不是8000？原因在于此double值的单位为英尺，而AsValueString()的单位为项目单位。下图可以看到本项目的长度单位为mm。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/5a34c03c57e0800b8ee693a0100a5398.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/5a34c03c57e0800b8ee693a0100a5398.png)
 
 简而言之，在程序中获得的长度单位为英尺，角度为弧度。英尺转化为毫米一般乘以304.8来转换。
 
@@ -558,11 +558,11 @@ namespace HelloWord
 
 修改前
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/901bdc4fd4c55f36a568770e0db21260.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/901bdc4fd4c55f36a568770e0db21260.png)
 
 修改后
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/36200d4d8eef91970aa10d186daed29a.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/36200d4d8eef91970aa10d186daed29a.png)
 
 ## 3.3 编辑图元
 
@@ -633,11 +633,11 @@ namespace HelloWord
 
 移动前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/2b6772123ac7b96fc0a9e69a485090b6.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/2b6772123ac7b96fc0a9e69a485090b6.png)
 
 移动后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/4c38c24dcfe8ebbcaf4213f0d159f4fe.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/4c38c24dcfe8ebbcaf4213f0d159f4fe.png)
 
 （2）修改图元Location属性进行移动
 
@@ -678,11 +678,11 @@ namespace HelloWord
 
 移动前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/90f13370647208b3f0d063bbacae3f8d.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/90f13370647208b3f0d063bbacae3f8d.png)
 
 移动后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/a775d7edb707071f5ee72d07312a2ce9.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/a775d7edb707071f5ee72d07312a2ce9.png)
 
 ### 3.3.2 复制图元
 
@@ -748,11 +748,11 @@ namespace HelloWord
 
 复制前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/ba587e799926e07f301595885da89c12.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/ba587e799926e07f301595885da89c12.png)
 
 复制后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/d6af183d1ca620b51708bbe2ced67513.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d6af183d1ca620b51708bbe2ced67513.png)
 
 ### 3.3.3 旋转图元
 
@@ -812,11 +812,11 @@ namespace HelloWord
 
 旋转前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/8112a19bbc25d817c32055cf412adff0.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/8112a19bbc25d817c32055cf412adff0.png)
 
 旋转后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/ad239d296098a45d62085221f67bee20.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/ad239d296098a45d62085221f67bee20.png)
 
 ### 3.3.4 对齐图元
 
@@ -917,11 +917,11 @@ namespace HelloWord
 
 镜像前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e3d0821e7636e77a1f8f1fc8a3bba2d6.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e3d0821e7636e77a1f8f1fc8a3bba2d6.png)
 
 镜像后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/67e09bd30f15e3218cd293a8ec343f45.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/67e09bd30f15e3218cd293a8ec343f45.png)
 
 ### 3.3.6 成组图元
 
@@ -988,11 +988,11 @@ namespace HelloWord
 
 成组前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/bcb707bed4712690ed44cc90bbd3a509.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/bcb707bed4712690ed44cc90bbd3a509.png)
 
 成组后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/2d1fd451551dd3c93f4865ec7cfbbb66.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/2d1fd451551dd3c93f4865ec7cfbbb66.png)
 
 ### 3.3.7 创建图元阵列
 
@@ -1066,11 +1066,11 @@ namespace HelloWord
 
 阵列前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/79053540b9b4fd22659d1679b5544844.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/79053540b9b4fd22659d1679b5544844.png)
 
 阵列后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/4c13a2762d30c64ce840479d349d02f8.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/4c13a2762d30c64ce840479d349d02f8.png)
 
 ### 3.3.8 删除图元
 
@@ -1127,11 +1127,11 @@ amespace HelloWord
 
 删除前：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/a54a33328e0660fae49296c05d02d5ec.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/a54a33328e0660fae49296c05d02d5ec.png)
 
 删除后：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/f38a87058cf8a8523224a869a3c5979a.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/f38a87058cf8a8523224a869a3c5979a.png)
 
 ### 3.3.9 锁定图元
 
@@ -1223,11 +1223,11 @@ namespace HelloWord
 
 创建前：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/648bc69ddd1e018ac84176884b0da816.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/648bc69ddd1e018ac84176884b0da816.png)
 
 创建后：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/478b093f4aeff26647e96b27e4f7d384.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/478b093f4aeff26647e96b27e4f7d384.png)
 
 ### 4.1.2 批量创建族实例
 
@@ -1274,11 +1274,11 @@ namespace HelloWord
 
 创建前：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/6387c409c1466517bcbf819019d6af0f.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/6387c409c1466517bcbf819019d6af0f.png)
 
 创建后：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/667409d02f4076789a1077f17794d66c.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/667409d02f4076789a1077f17794d66c.png)
 
 ## 4.2 注释图元
 
@@ -1312,13 +1312,13 @@ namespace HelloWord
 
 在Revit中，可以在如下图所示的对话框中自定义尺寸标注上所显示的文字。（通过双击尺寸标注的文字来调出该对话框）
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/3ff600d27880f39f9ff781e75a333712.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/3ff600d27880f39f9ff781e75a333712.png)
 
 尺寸标注文字属性框
 
 可以使用实际的尺寸值再加上附加的文字字段来表示尺寸标注的文字，也可以以随意的文字来替换实际尺寸值。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/f713fc66db6ab3a9ac8730294f6935f3.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/f713fc66db6ab3a9ac8730294f6935f3.png)
 
 有附加文字的尺寸标注
 
@@ -1388,11 +1388,11 @@ namespace HelloWord
 
 标注前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/aa5b639477c714be77aee5bfdcb89320.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/aa5b639477c714be77aee5bfdcb89320.png)
 
 标注后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/4f162d03277b3f042961fb76d0a2cf67.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/4f162d03277b3f042961fb76d0a2cf67.png)
 
 ### 4.2.2 详图曲线
 
@@ -1477,7 +1477,7 @@ Autodesk.Revit.Creation.ItemFactoryBase.NewDetailCurve(View view， Curve geomet
 
 用"Revit LookUp"图元的Geometry属性可以查看图元的几何，如下为墙体的几何属性界面：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/71f2c30a91501a4971ab652c1550b757.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/71f2c30a91501a4971ab652c1550b757.png)
 
 ### 4.4.1 几何基元类
 
@@ -1572,7 +1572,7 @@ namespace HelloWord
 
 运行后：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/ebe2d30a609a91eba014deebcaf9abaa.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/ebe2d30a609a91eba014deebcaf9abaa.png)
 
 （2）实体（Solid）
 
@@ -1589,7 +1589,7 @@ namespace HelloWord
 
  有时API可以取到没有任何边和面的空实体，使用前请先检查对应的属性来确保获取想要的边和面。例如添加 **if(solid != null && solid.Face.Size != 0)**语句判断后再使用。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/346275a18349dfeb49a609eab080bf43.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/346275a18349dfeb49a609eab080bf43.png)
 
 空实体属性
 
@@ -1638,7 +1638,7 @@ namespace HelloWord
 
 运行后：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/eed28d633a8ddd631bf43827873dbfd5.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/eed28d633a8ddd631bf43827873dbfd5.png)
 
 ### 4.4.2 几何集合类
 
@@ -1705,7 +1705,7 @@ API提供了下面一些集合类用来者遍历几何数据，所有这些类�
 
  事务是便于Revit模型作任意更改所需的上下文，++**一次只能打开一个事务**++；不允许嵌套使用。**每个事务必须都有一个名称。**名称可以在创建事务对象的时候赋值，也可以在事务启动的时候赋值。这个“事务名称”在成功提交后会显示在Undo菜单中。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/0436d23e8bb156dd1000c8ad6ad2a7f4.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/0436d23e8bb156dd1000c8ad6ad2a7f4.png)
 
 Revit Undo菜单
 
@@ -1799,29 +1799,29 @@ public class ExternalEventExamp : IExternalEventHandler
 
 打开VisualStudio2017 点击“文件”→“新建”→“项目”，选择WPF应用(.NET Framework)。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/9bc6db2a613cdf914ea5931da62c0c1a.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/9bc6db2a613cdf914ea5931da62c0c1a.png)
 
 第一步：在名称空间处右键，选择属性。在输出类型，将“Windows 应用程序” 改为“类库”
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/2d3722c14478df8c5c2914ba8fd8f59c.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/2d3722c14478df8c5c2914ba8fd8f59c.png)
 
 选择属性
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/5be2db5eb395166678334771bb47bdde.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/5be2db5eb395166678334771bb47bdde.png)
 
 将输出类型改为类库
 
 第二步：将App.config 和 App.xaml删除。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/69841a44217b5b6d0f6f6711c11c93c2.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/69841a44217b5b6d0f6f6711c11c93c2.png)
 
 删除后资源管理器界面
 
 第三步：创建主程序类（继承IExternalCommand接口），创建外部命令类（继承IEventHandler）。在名称空间右键，选择“添加”→“新建项”→”类“。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/d084e78fb9c90f3067dbdbf46fef20c5.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d084e78fb9c90f3067dbdbf46fef20c5.png)
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/fdb844441a0cbf6a02cd2994336ecaa2.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/fdb844441a0cbf6a02cd2994336ecaa2.png)
 
 第四步：添加”Revit API“和”Revit APIUI“引用，把复制本地改为”False“。完善主程序类代码，代码如下：
 
@@ -1914,7 +1914,7 @@ namespace WpfApp2
 
 窗体效果如下：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/cc6bd7614825dee22c3b99ec91489f4c.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/cc6bd7614825dee22c3b99ec91489f4c.png)
 
 第七步：完成MainWindow.cs 代码，代码如下：
 
@@ -1949,11 +1949,11 @@ namespace WpfApp2
 }
 ```
 
-第八步：生成方案，执行插件![image](https://i-blog.csdnimg.cn/blog_migrate/465c5b36e186032526dfb2d22cb769ac.png) 。
+第八步：生成方案，执行插件![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/465c5b36e186032526dfb2d22cb769ac.png) 。
 
 执行效果如下：
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/9db957550def93f5c44cf036b7e09542.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/9db957550def93f5c44cf036b7e09542.png)
 
 # 7 部件和视图
 
@@ -1961,13 +1961,13 @@ namespace WpfApp2
 
 在Revit软件中，部件的创建可以通过选择要成为部件的图元，在修改选项卡中，点击创建部件实现。
 
- ![image](https://i-blog.csdnimg.cn/blog_migrate/cc8b5db4f0caae647b34636d6153a993.png)
+ ![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/cc8b5db4f0caae647b34636d6153a993.png)
 
 创建部件
 
 部件创建完成后，可点击“创建视图”按钮，选择要创建的部件视图，完成部件视图创建。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/a77fe3e290cc596c0e834b7b1837e777.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/a77fe3e290cc596c0e834b7b1837e777.png)
 
 创建部件视图
 
@@ -2028,9 +2028,9 @@ namespace HelloWord
 
 创建前：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/d0c1563601c658bbe7c7529d63dda957.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d0c1563601c658bbe7c7529d63dda957.png)
 
-创建后：![image](https://i-blog.csdnimg.cn/blog_migrate/8e32b9328a89585d9b6a51d10fa73fd3.png)
+创建后：![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/8e32b9328a89585d9b6a51d10fa73fd3.png)
 
 事务名称显示在Undo菜单中：
-![image](https://i-blog.csdnimg.cn/blog_migrate/2fda4e90ffc0a2a0b04126159b5c0513.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/2fda4e90ffc0a2a0b04126159b5c0513.png)
