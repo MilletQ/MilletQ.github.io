@@ -1,7 +1,7 @@
 ---
 title: Revit二次开发-基础流程
 date: 2025-11-03 10:44:09
-tags:Revit二次开发
+tags: Revit二次开发
 ---
 # 1 开发前准备
 ## 1.1 安装Revit AddIn-Manager
