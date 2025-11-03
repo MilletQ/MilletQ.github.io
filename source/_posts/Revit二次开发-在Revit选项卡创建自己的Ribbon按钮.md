@@ -119,9 +119,9 @@ namespace Ribbon
 <font color=#999AAA >Addin文件的存放路径为C:\ProgramData\Autodesk\Revit\Addins\2018\（2018对应的是你安装的Revit版本，笔者安装的是2018版的Revit就放2018文件夹下）
 
 # 三、最终效果
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/8fc5d395bebc4d994f8efe7702d2fad4.png#pic_center)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8Revit%E9%80%89%E9%A1%B9%E5%8D%A1%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84Ribbon%E6%8C%89%E9%92%AE/8fc5d395bebc4d994f8efe7702d2fad4.png#pic_center)
 <font color=#999AAA >这里的NewTab和TabBar名称都可以在“1.新建一个选项卡”中就行修改
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/f9797b78a4aac0c7313ee003160f74d7.png#pic_center)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8Revit%E9%80%89%E9%A1%B9%E5%8D%A1%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84Ribbon%E6%8C%89%E9%92%AE/f9797b78a4aac0c7313ee003160f74d7.png#pic_center)
 <font color=#999AAA >Text1、Text2、Text3就是PushButtonData里的参数。
 
 

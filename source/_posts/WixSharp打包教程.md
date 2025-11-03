@@ -7,29 +7,29 @@ tags: c#
 
 点击VisualStudio-扩展-管理扩展，搜索“WixSaharp”，安装“WixSharp Project Templates”。如下图所示：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/13fb647108b86383a4eb06566a8d110b.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/13fb647108b86383a4eb06566a8d110b.png)
 
 # 二、添加WixSharp打包项目
 
 1、右键解决方案，点击添加-新建项目
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/699a6a377a5050a82e09fde6b2fa79d4.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/699a6a377a5050a82e09fde6b2fa79d4.png)
 
 2、在弹出的添加新项目模板选择里面，搜索“wix”，找到“WixSharp Managed Setup”项目模板，点击下一步。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e3e18306ff39e1781e74a45ec966a248.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/e3e18306ff39e1781e74a45ec966a248.png)
 
 3、点击右下角“创建”创建项目
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/d30ad736d0acc4ce0732a6b866111824.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/d30ad736d0acc4ce0732a6b866111824.png)
 
 4、点击“Program.cs”进入打包程序文件。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/29372c26497a170b3540d7da4685d477.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/29372c26497a170b3540d7da4685d477.png)
 
 5、解决方案构成如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/4ce26762738dafb08643c38d5ff3f61c.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/4ce26762738dafb08643c38d5ff3f61c.png)
 
 # 三、安装包配置
 
@@ -89,7 +89,7 @@ Dir后面的”2018“参数指的是当勾选，Revit2018功能后，软件会�
 
 project.DefaultFeature = revit2018，必须设置，如不进行默认功能设置，在功能选项卡则会生成Complete选项。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/22d3cf47670ffb4abbcedd0a12ef1942.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/22d3cf47670ffb4abbcedd0a12ef1942.png)
 
 ## 2、安装包名称设置
 
@@ -100,7 +100,7 @@ roject.OutFileName = "软件名称" + $"{DateTime.Now.Year}{DateTime.Now.Month:0
 
 生成的包名效果如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/29496dd53a674d9081c46d09ee4b828a.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/29496dd53a674d9081c46d09ee4b828a.png)
 
 ## 3、安装包输出路径设置
 
@@ -111,7 +111,7 @@ project.OutDir = @"..\";
 
 表示生成在Pregram.cs文件的上级目录即”WixSharpSample“文件夹下
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/8f4a1115f0c85e6c994e2b007149a3d0.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/8f4a1115f0c85e6c994e2b007149a3d0.png)
 
 ## 4、安装包UI元素设置
 
@@ -126,11 +126,11 @@ project.BannerImage = "BannerImage-CAD.png";
 
 BackgroundImage对应下图：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/c54c2115f0873507c06384fe292c55f4.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/c54c2115f0873507c06384fe292c55f4.png)
 
 BannerImage对应下图：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/ec10c6eb84d09ea64b6278339850b627.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/ec10c6eb84d09ea64b6278339850b627.png)
 
 ## 5、控制面板信息设置
 
@@ -143,7 +143,7 @@ project.ControlPanelInfo.ProductIcon = "ShellIcon-CAD.ico";
 
 控制面板信息会在软件安装后在控制面板显示。效果如下：
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/3752b9b2b9d7cd27a470b40dc9eab1f8.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/3752b9b2b9d7cd27a470b40dc9eab1f8.png)
 
 ## 6、设置可覆盖安装
 
@@ -202,53 +202,53 @@ project.ManagedUI.ModifyDialogs.Add(Dialogs.MaintenanceType)
 
 project.ManagedUI.Icon = "ShellIcon-CAD.ico"为设置左上角图标。
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/7a58ab9c853dbc45b4379e4bc26ca537.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/7a58ab9c853dbc45b4379e4bc26ca537.png)
 
 ### 9.1安装对话框
 
 **Welcome对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/235e1a0500d79d6f0519fe7f37bf6c81.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/235e1a0500d79d6f0519fe7f37bf6c81.png)
 
 **Licence对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/998964240290c2c6bdb954c8877ba796.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/998964240290c2c6bdb954c8877ba796.png)
 
 **SetupType对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/6dae63be1862a70099d5c1e34a6d5a43.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/6dae63be1862a70099d5c1e34a6d5a43.png)
 
 当选择典型时，会根据project.DefaultFeature = revit2018设置的默认功能进行安装。自定义则进行自定义安装。完整则全部安装。
 
 **Features对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/4a8bddba367c29044ac5a2d2501c962f.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/4a8bddba367c29044ac5a2d2501c962f.png)
 
 **InstallDir对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/1affb96ab1e65bfcf75c39f6b99ea589.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/1affb96ab1e65bfcf75c39f6b99ea589.png)
 
 **Progress对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/c8db135abe4b637c1531fd83143ba586.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/c8db135abe4b637c1531fd83143ba586.png)
 
 **Exit对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/89592cb36c1bb94dea6137229f9a7884.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/89592cb36c1bb94dea6137229f9a7884.png)
 
 ### 9.2卸载对话框
 
 **MaintenanceType对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/e9e58a319b94e57c0a7e446bce89aa18.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/e9e58a319b94e57c0a7e446bce89aa18.png)
 
 **Features对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/2e342f614f3a3e1a98974a4dcc5f003a.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/2e342f614f3a3e1a98974a4dcc5f003a.png)
 
 **Progress对话框**
 
-![image](https://i-blog.csdnimg.cn/blog_migrate/75315ac721d3d6bc97b91dbe41497555.png)
+![image](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/WixSharp%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/75315ac721d3d6bc97b91dbe41497555.png)
 
 **Exit对话框**
 ## 10、完整代码

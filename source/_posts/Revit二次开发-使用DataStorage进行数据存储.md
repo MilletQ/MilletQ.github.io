@@ -312,10 +312,10 @@ namespace dataStorage
 
 ```
 # 3. 实现效果
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/6c19648c3478b1023bc5c434f99d7ad9.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E4%BD%BF%E7%94%A8DataStorage%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/6c19648c3478b1023bc5c434f99d7ad9.png)
 # 4. 数据查看
 可使用RevitLookup插件查看数据存储情况。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/fcf3fe76786b29f2f9fd0bd3b42b6295.png)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/72fc6f8bc393f4121af128db9d7ee981.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E4%BD%BF%E7%94%A8DataStorage%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/fcf3fe76786b29f2f9fd0bd3b42b6295.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/Revit%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E4%BD%BF%E7%94%A8DataStorage%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/72fc6f8bc393f4121af128db9d7ee981.png)
 
 

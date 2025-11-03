@@ -5,16 +5,16 @@ tags: CAD二次开发
 ---
 # 1. 新建项目
 ①打开VS2022，点击**创建新项目**。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/a1d8da19301b352f4d2ddf17affe28f9.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/a1d8da19301b352f4d2ddf17affe28f9.png)
 ②选择**类库.NET Framework)**，点击下一步。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/a4f0fc633f7de2d4a941b427cf869ed0.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/a4f0fc633f7de2d4a941b427cf869ed0.png)
 ③输入项目名称后，点击创建。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/9ca7a4189ca4c0b148340f505b180355.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/9ca7a4189ca4c0b148340f505b180355.png)
 # 2.  添加CAD类库引用
 ①右键**引用**，点击**管理NuGet程序包**。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/1e3c945fe623f7cea7bf1e6bf3d76491.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/1e3c945fe623f7cea7bf1e6bf3d76491.png)
 ②在浏览选项卡中，输入CAD2018，找到**ModPlus.AutoCAD.API.2018**，点击右侧箭头进行安装。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/4a1ed59a9a0747f771f3cfffea5dc2cd.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/4a1ed59a9a0747f771f3cfffea5dc2cd.png)
 # 3. 创建选项卡
 在class1类下创建如下代码：
 ```c
@@ -91,7 +91,7 @@ if (ribbonPanel.Source == null || ribbonPanel.Source.Items == null || ribbonPane
 ```
 上面```LargeImage = new BitmapImage(new Uri("pack://application:,,,/CADButtonDemo;component/image/按钮图标.png", UriKind.Absolute)),```为设置按钮图片。```CADButtonDemo```为项目名称，```按钮图标.png```为放置在项目image文件夹中的图片。其他照抄。也可以参考[ “Revit二次开发-创建IURibbon中使用相对地址” ](https://blog.csdn.net/MilletQ/article/details/109074413?spm=1001.2014.3001.5501)这篇文章的方法进行图片设置。
 按钮图片属性设置如下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/cafa4c74e3961c7e206970c744f9ad03.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/cafa4c74e3961c7e206970c744f9ad03.png)
 # 6. 按钮绑定命令
 创建按钮时，需要绑定按钮命令。代码为：
 ```c
@@ -152,7 +152,7 @@ blockTable = (trans as Transaction).GetObject((db as Database).BlockTableId, Ope
 以上代码完成后，使用netload加载CADButtonDemo.dll文件后，在命令行输入，```InitMyRibbon```即可在选项卡生成自定义的按钮。
 如需要开启CAD自动加载自定义选项卡需要做如下操作：
 ①创建配置文件，在项目中添加名为**PackageContents.xml**的文件
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/717d56595e0945f9416ac4bdc15c8fcd.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/717d56595e0945f9416ac4bdc15c8fcd.png)
 在文件中添加如下代码：
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -179,10 +179,10 @@ blockTable = (trans as Transaction).GetObject((db as Database).BlockTableId, Ope
 ```
 其中**插件名称**可以修改为自己的插件名称，```ModuleName="./CADButtonDemo.dll"```为需要加载的dll名称。```Local="InitMyRibbon" Global="InitMyRibbon"```为创建按钮命令。同```[CommandMethod("InitMyRibbon")]```。
 ②创建插件文件夹，放入指定文件。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/1bbd92d87d63095f34e5f2200a213569.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/1bbd92d87d63095f34e5f2200a213569.png)
 打开C:\Program Files\Autodesk\ApplicationPlugins文件夹。创建xxx.bundle文件。将生成的dll文件和上述的配置文件放入。
 后。打开CAD即可完成按钮创建。效果如下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/ca23b052bf1fe5a1c57eb70f9885d8a3.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/ca23b052bf1fe5a1c57eb70f9885d8a3.png)
 # 8. 完整代码
 class1文件代码如下：
 ```c
@@ -307,7 +307,7 @@ namespace CADButtonDemo
 }
 ```
 完整项目文件如下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/081a75cc8596da85f6b5335d954cf19f.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9C%A8%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE/081a75cc8596da85f6b5335d954cf19f.png)
 
 
 

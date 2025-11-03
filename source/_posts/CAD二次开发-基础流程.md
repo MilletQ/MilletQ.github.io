@@ -5,16 +5,16 @@ tags: CAD二次开发
 ---
 # 1. 创建.NET Framework类库项目
 ①打开vs，点击创建新项目
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d60562e1117ea9ed3ebbaa38496c5f59.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d60562e1117ea9ed3ebbaa38496c5f59.png)
 ②筛选windows-库，选择类库(.NET Framework)点击下一步
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/306dd8dc1534b385045849839da7ed06.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/306dd8dc1534b385045849839da7ed06.png)
 ③填写项目名称，选择项目框架，点击创建。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/fd86c253948469d51c40ae5efc08b461.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/fd86c253948469d51c40ae5efc08b461.png)
 # 2. 引用CAD dll 库文件
 ①在项目的**引用**处右键，点击管理NuGet程序包
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d7d6fc7fe9e8c04afde2861c65c337aa.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/d7d6fc7fe9e8c04afde2861c65c337aa.png)
 ②在浏览选项卡搜索**CAD2018**，选择AutoCAD2018NET库进行安装。（这里以CAD2018举例，其他版本可以引用CAD安装目录下对应的同名dll）
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/9cd18b0f46c3b16c888c02fc4e31707e.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/9cd18b0f46c3b16c888c02fc4e31707e.png)
 # 3. 编写模板代码
 模板代码如下：
 ```c
@@ -44,18 +44,18 @@ using (IDisposable db = HostApplicationServices.WorkingDatabase, trans = (db as 
 ```
 # 4. 生成dll载入CAD进行调用
 ①在项目右键，点击生成。即可生成dll库文件。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/405854e7223c694d577f0245cf504126.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/405854e7223c694d577f0245cf504126.png)
 ②打开CAD，新建一张空白CAD图纸。在控制台输入NETLOAD命令按回车进行dll程序加载。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/db9082d4e06812bba26c66289cf9ecc2.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/db9082d4e06812bba26c66289cf9ecc2.png)
 ②在弹出的选择窗口找到我们刚才生成的dll文件，点击打开进行加载。（dll文件在项目文件夹下的bin/Debug文件夹中）
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/e34d321ab87402c745689f1462ce93bd.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/e34d321ab87402c745689f1462ce93bd.png)
 ③在弹出的安全提示窗口点击“始终加载”。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/befa71c4565e8b4bee6e45f5b6effc1a.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/befa71c4565e8b4bee6e45f5b6effc1a.png)
 
 ④在控制台输入“test”命令按回车即可执行我们自定义的程序命令，生成两条线。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/48451804e03b1ebb7d15b622015c115c.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/48451804e03b1ebb7d15b622015c115c.png)
 ⑤生成效果入下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/61a62168ba625d7cb0b3061becb645dd.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/CAD%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E6%B5%81%E7%A8%8B/61a62168ba625d7cb0b3061becb645dd.png)
 # 5. 完整代码
 ```c
 using Autodesk.AutoCAD.DatabaseServices;

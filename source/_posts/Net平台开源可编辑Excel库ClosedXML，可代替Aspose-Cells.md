@@ -5,8 +5,8 @@ tags: c#
 ---
 # 1. 库的引用
 右键项目，点击**管理NuGet程序包**在浏览选项卡中输入**ClosedXML**，点击右侧箭头进行安装。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/7b997f14d0d7c245e2ff9d791b315520.png#pic_center)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/f3063b52c88e9a9d8e024aba538db694.png#pic_center)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/7b997f14d0d7c245e2ff9d791b315520.png#pic_center)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/f3063b52c88e9a9d8e024aba538db694.png#pic_center)
 # 2. API的使用
 ## 2.1 创建工作簿
 ```c
@@ -204,11 +204,11 @@ namespace ClosedXML_API_Test
 
 ```
 # 4. 效果展示
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/b1d46ae7edba176ca0b7746a84f516d3.png#pic_center)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/b1d46ae7edba176ca0b7746a84f516d3.png#pic_center)
 # 5. 解决无法读取xls格式文件问题
 ## 5.1 使用Aspose.Cells免费版库进行格式转换
 在**NuGet包管理器**中搜索并安装Aspose.Cells库
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/240148eae2422bae897909dad0ae8ccf.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/240148eae2422bae897909dad0ae8ccf.png)
 安装完成后，执行以下代码进行格式转换：
 ```c
 Workbook workbook = new Workbook("C:\\Users\\Administrator\\Desktop\\ClosedXML_API_Test\\convertFormat.xls");
@@ -216,12 +216,12 @@ workbook.Save("C:\\Users\\Administrator\\Desktop\\ClosedXML_API_Test\\convertFor
 workbook.Dispose();
 ```
 转换后效果如下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/3607ebc5888e227072f42269c876d938.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/3607ebc5888e227072f42269c876d938.png)
 **存在问题**：免费版会多一个水印，不过不影响使用
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/e0e5088d4294a696fbaee97d792c5495.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/e0e5088d4294a696fbaee97d792c5495.png)
 ## 5.2 使用NPOI库进行内容复制
 在**NuGet包管理器**中搜索并安装NPOI库
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/f8edc4ae991fc7ae1566500c50183b20.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/f8edc4ae991fc7ae1566500c50183b20.png)
 安装完成后，执行以下代码进行内容复制：
 ```c
 // 读取xls格式文件
@@ -352,14 +352,14 @@ newFs.Close();
 fs.Close();
 ```
 复制效果如下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/014b51a5b9a51614460f68484158be87.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/014b51a5b9a51614460f68484158be87.png)
 **存在问题**：
 1、对于以下这种提示损坏的xls文件，NPOI和Sylvan.Data.Excel均无法打开，但Aspose.Cells可打开。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/3ce716175134a43ae93dfbf8f721587c.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/3ce716175134a43ae93dfbf8f721587c.png)
 2、NPOI将xls转换为xlsx的方式并非进行格式转换，而是进行内容1：1复制，但**富文本无法进行复制**！
 ## 5.3 使用Sylvan.Data.Excel库进行格式转换
 在**NuGet包管理器**中搜索并安装Sylvan.Data.Excel库
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/48d49ce94ed624574892127133acb00a.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/48d49ce94ed624574892127133acb00a.png)
 执行以下代码进行格式转换：
 ```c
 ExcelDataReader edr = ExcelDataReader.Create("C:\\Users\\Administrator\\Desktop\\ClosedXML_API_Test\\convertFormat.xls");
@@ -373,7 +373,7 @@ edr.Close();
 edw.Dispose();
 ```
 转换效果如下：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/12a1e537ff1f282f0e18fed734b90b01.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/MilletQ/MilletQ.github.io/refs/heads/main/images/.Net%E5%B9%B3%E5%8F%B0%E5%BC%80%E6%BA%90%E5%8F%AF%E7%BC%96%E8%BE%91Excel%E5%BA%93ClosedXML%EF%BC%8C%E5%8F%AF%E4%BB%A3%E6%9B%BFAspose.Cells/12a1e537ff1f282f0e18fed734b90b01.png)
 **存在问题**：转换后无法保留单元格格式，仅可用于内容查询。
 
 
