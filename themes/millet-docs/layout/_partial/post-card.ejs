@@ -1,0 +1,21 @@
+<article class="post-card">
+  <% const summary = strip_html(post.content)
+    .replace(/&(?:emsp|nbsp);/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ')
+    .trim(); %>
+  <div class="post-card-top">
+    <% if (post.tags && post.tags.length) { %>
+      <a class="post-tag" href="<%- url_for(post.tags.first().path) %>"><%= post.tags.first().name %></a>
+    <% } else { %>
+      <span class="post-tag">开发笔记</span>
+    <% } %>
+    <time datetime="<%= date_xml(post.date) %>"><%= date(post.date, 'YYYY.MM.DD') %></time>
+  </div>
+  <h2><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+  <p class="post-summary"><%= summary.slice(0, 118) %><% if (summary.length > 118) { %>…<% } %></p>
+  <a class="read-link" href="<%- url_for(post.path) %>">
+    阅读教程
+    <span aria-hidden="true">→</span>
+  </a>
+</article>

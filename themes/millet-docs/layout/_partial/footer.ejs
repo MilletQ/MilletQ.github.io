@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-brand" href="<%- url_for('/') %>"><%= config.title %></a>
+      <p><%= config.description %></p>
+    </div>
+    <p class="copyright">© <%= date(new Date(), 'YYYY') %> <%= config.author %> · Built with Hexo</p>
+  </div>
+</footer>

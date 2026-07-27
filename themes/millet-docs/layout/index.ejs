@@ -1,0 +1,47 @@
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span> REVIT · CAD · .NET</p>
+      <h1>把复杂的 BIM 开发，<br><em>讲得清楚一点。</em></h1>
+      <p class="hero-description"><%= config.description %>。从环境搭建到功能实现，记录真实开发过程中的方法与细节。</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#latest">开始阅读</a>
+        <a class="button button-ghost" href="<%- url_for('/tags/Revit二次开发/') %>">浏览 Revit 教程</a>
+      </div>
+    </div>
+    <div class="hero-panel" aria-label="站点内容概览">
+      <div class="blueprint-lines" aria-hidden="true"></div>
+      <span class="panel-label">KNOWLEDGE BASE</span>
+      <svg class="model-icon" viewBox="0 0 180 180" aria-hidden="true">
+        <path d="M90 18 151 52v73l-61 37-61-37V52Z"/>
+        <path d="m29 52 61 36 61-36M90 88v74M56 68v72m68-72v72M56 108h68"/>
+      </svg>
+      <div class="panel-stats">
+        <div><strong><%= site.posts.length %></strong><span>篇技术文章</span></div>
+        <div><strong><%= site.tags.length %></strong><span>个专题方向</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="topic-strip" aria-label="教程分类">
+  <a href="<%- url_for('/tags/Revit二次开发/') %>"><span class="topic-index">01</span><strong>Revit 二次开发</strong><small>API · Ribbon · 数据</small></a>
+  <a href="<%- url_for('/tags/CAD二次开发/') %>"><span class="topic-index">02</span><strong>CAD 二次开发</strong><small>.NET · 插件 · 界面</small></a>
+  <a href="<%- url_for('/tags/c/') %>"><span class="topic-index">03</span><strong>.NET 工程实践</strong><small>C# · 工具库 · 打包</small></a>
+</section>
+
+<section class="content-section" id="latest">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow"><span></span> LATEST NOTES</p>
+      <h2>最新教程</h2>
+    </div>
+    <a href="<%- url_for('/archives/') %>">查看全部文章 →</a>
+  </div>
+  <div class="post-grid">
+    <% page.posts.each(function(post) { %>
+      <%- partial('_partial/post-card', { post }) %>
+    <% }) %>
+  </div>
+  <%- partial('_partial/pagination') %>
+</section>

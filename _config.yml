@@ -4,9 +4,9 @@
 
 # Site
 title: MilletQ
-subtitle: 'subtitle'
-description: 'description'
-keywords: 'keywords'
+subtitle: 'BIM 开发实践与技术笔记'
+description: '专注 Revit、CAD 与 .NET 二次开发的中文教程'
+keywords: 'Revit二次开发,CAD二次开发,BIM,.NET,C#'
 author: MilletQ
 language: zh-CN
 timezone: Asia/Shanghai
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: millet-docs
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

@@ -1,0 +1,24 @@
+<section class="archive-hero">
+  <p class="eyebrow"><span></span> ARTICLE INDEX</p>
+  <h1><%= page.title || '文章归档' %></h1>
+  <p>按时间浏览所有技术教程与开发记录。</p>
+</section>
+
+<section class="archive-list">
+  <% let lastYear; %>
+  <% page.posts.each(function(post) { %>
+    <% const year = date(post.date, 'YYYY'); %>
+    <% if (year !== lastYear) { lastYear = year; %>
+      <h2><%= year %></h2>
+    <% } %>
+    <article>
+      <time datetime="<%= date_xml(post.date) %>"><%= date(post.date, 'MM.DD') %></time>
+      <div>
+        <h3><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
+        <% if (post.tags && post.tags.length) { %><span><%= post.tags.first().name %></span><% } %>
+      </div>
+      <a class="archive-arrow" href="<%- url_for(post.path) %>" aria-label="阅读 <%= post.title %>">→</a>
+    </article>
+  <% }) %>
+  <%- partial('_partial/pagination') %>
+</section>
